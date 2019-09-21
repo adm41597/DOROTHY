@@ -21,5 +21,5 @@ from django.views import generic
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('homepage.urls')),
-    #url(r'^$', generic.RedirectView.as_view(url='/homepage/', permanent=False)),
+    url(r'^$', generic.RedirectView.as_view(url='/homepage/', permanent=False)),
 ]
