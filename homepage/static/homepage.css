@@ -1,8 +1,8 @@
-body {
-    background-color: lightgreen;
-}
-
 h1 {
     text-align: center;
     color: forestgreen;
+}
+
+body {
+    background-color: lightgreen;
 }
