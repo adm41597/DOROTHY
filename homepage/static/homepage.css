@@ -3,6 +3,12 @@ h1 {
     color: forestgreen;
 }
 
+h2 {
+    text-align: center;
+    color: forestgreen;
+    border-bottom: thin solid;
+}
+
 body {
-    background-color: lightgreen;
+    background-color: #bfffbf;
 }
