@@ -1,0 +1,14 @@
+h1 {
+    text-align: center;
+    color: forestgreen;
+}
+
+h2 {
+    text-align: center;
+    color: forestgreen;
+    border-bottom: thin solid;
+}
+
+body {
+    background-color: #bfffbf;
+}

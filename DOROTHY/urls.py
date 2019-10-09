@@ -15,7 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.conf.urls import include, url
+from django.views import generic
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', include('homepage.urls')),
+    url(r'^$', generic.RedirectView.as_view(url='/homepage/', permanent=False)),
 ]
